@@ -1,0 +1,29 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Builds
+.dist/
+dist/
+build/
+.next/
+*.log
+
+# Env
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SQLite
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
