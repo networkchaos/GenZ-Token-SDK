@@ -72,10 +72,7 @@ await sdk.tokens.mint({ playerId: 'player_123', amount: 100, reason: 'quest' })
 
 ## Backend APIs (selected)
 
-- `POST /v1/tokens/mint` — Mint GENZ after deposit settlement (server API key required)
-- `GET /v1/wallets/:playerId/balance?address=0x...` — Read balance
-- `POST /v1/deposits/initiate-stk` — Initiate initial KES funding during onboarding
-- `POST /v1/webhooks/pretium` — Receive deposit/payout events from Pretium
+******
 
 ## Documentation
 
@@ -91,4 +88,5 @@ await sdk.tokens.mint({ playerId: 'player_123', amount: 100, reason: 'quest' })
 ## License
 
 MIT
+
 
