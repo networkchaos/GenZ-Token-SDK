@@ -1,4 +1,4 @@
-# GenZ Token SDK Monorepo
+# GenZ Token SDK 
 
 GenZ is a KES-backed stable token (GENZ) and developer platform that lets game studios integrate real-money token economies into their games using first-party SDKs for web, Unity, Unreal, and Godot. The token is fiat-backed: every GENZ in circulation is backed by Kenyan Shillings (KES) held in reserve.
 
@@ -91,3 +91,4 @@ await sdk.tokens.mint({ playerId: 'player_123', amount: 100, reason: 'quest' })
 ## License
 
 MIT
+
